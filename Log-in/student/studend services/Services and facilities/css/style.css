@@ -1,0 +1,48 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/*******************************************************/
+
+.navbar {  background-color: #0c2e4a; position: fixed; z-index: 5; width: 100%;}
+.navbar .navbar-brand span { font-weight: bold; font-size: 30px;}
+.navbar .navbar-brand span:first-of-type { color: #0069d9 }
+.navbar .navbar-brand span:last-of-type { color: rgb(255, 255, 255); }
+.navbar ul { font-weight: bold;}
+.navbar ul li .nav-link{
+    color: white;
+    font-size: 15px;
+    transition: .4s all ease-in-out;
+}
+.navbar ul li.active .nav-link,
+.navbar ul li:hover .nav-link{
+    background-color: #020202ce;
+    border: 1px solid rgb(187, 187, 187);
+}
+/*************************************************/
+
+.Breadcrumb-section{
+    margin-top: 71px;
+    background: #dbdbdb;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/***************************************/
+
+footer{
+    background: #0c2e4a;
+    font-size: 14px;
+    color: #888;
+    padding: 70px 0 35px;
+}
+
+footer .container-fluid{
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+footer .container-fluid .links ul li a{
+    color: #777;
+}
